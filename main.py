@@ -21,9 +21,9 @@ async def start(message: Message):
         "⚡ Остальные каналы, которые представлены в поиске - МОШЕННИКИ!\n\n"
         "📝 Ниже Ссылка на наш закрытый канал.\n\n"
         "✅ Заявки в канал принимаются автоматически!\n\n"
-        "https://t.me/+VeGsAspumG9hOTdi\n"
-        "https://t.me/+VeGsAspumG9hOTdi\n"
-        "https://t.me/+VeGsAspumG9hOTdi\n"
+        "https://t.me/+quQ4ll6cNPQ1YWVi\n"
+        "https://t.me/+quQ4ll6cNPQ1YWVi\n"
+        "https://t.me/+quQ4ll6cNPQ1YWVi\n"
     )
     await message.answer(text)
 
