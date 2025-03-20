@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import keep_alive
 from aiogram import Bot, Dispatcher
 from aiogram.enums import ParseMode
 from aiogram.types import Message
@@ -20,7 +21,9 @@ async def start(message: Message):
         "⚡ Остальные каналы, которые представлены в поиске - МОШЕННИКИ!\n\n"
         "📝 Ниже Ссылка на наш закрытый канал.\n\n"
         "✅ Заявки в канал принимаются автоматически!\n\n"
-        "https://t.me/+VeGsAspumG9hOTdi"
+        "https://t.me/+VeGsAspumG9hOTdi\n"
+        "https://t.me/+VeGsAspumG9hOTdi\n"
+        "https://t.me/+VeGsAspumG9hOTdi\n"
     )
     await message.answer(text)
 
